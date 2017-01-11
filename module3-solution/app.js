@@ -52,7 +52,7 @@
           var data  = result.data.menu_items;
 
           for( let i = 0; i<data.length;i++){
-            if(data[i].name.toLowerCase().indexOf(searchTerm.toLowerCase())!=-1){
+            if(data[i].description.toLowerCase().indexOf(searchTerm.toLowerCase())!=-1){
               foundItems.push(data[i]);
             }
           };
